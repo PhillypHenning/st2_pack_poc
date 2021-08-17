@@ -1,0 +1,11 @@
+name: github_rule
+description: Receive GitHub repo updates and trigger an action
+enabled: true
+
+trigger:
+  type: git.head_sha_monitor
+
+action:
+  ref: st2_pack_poc.github_action
+  parameters:
+    payload: "{{ trigger }}"
