@@ -11,7 +11,7 @@ tasks:
          Repo change detected on GitHub.
     next:
       - when: <% succeeded() %>
-        do: packs.install
+        do: install_packs
     
   install_packs:
     action: packs.install
