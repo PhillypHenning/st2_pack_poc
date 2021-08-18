@@ -13,15 +13,6 @@ tasks:
       - when: <% succeeded() %>
         do: core.echo.payload
     
-
-    action: core.echo.payload
-    input:
-      message: |
-         Payload: {{ ctx().payload }}
-    next:
-      - when: <% succeeded() %>
-        do: install_packs
-
   install_packs:
     action: packs.install
     input:
