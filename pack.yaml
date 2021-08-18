@@ -1,4 +1,4 @@
-ref: my_st2_pack
+ref: st2_pack_poc
 name: "My StackStorm Pack"
 description: Our collection of rules, sensors, workflows, and actions.
 version: 0.0.4
