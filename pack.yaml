@@ -1,7 +1,7 @@
 ref: st2_pack_poc
 name: "My StackStorm Pack POC"
 description: Our collection of rules, sensors, workflows, and actions.
-version: 0.0.6
+version: 0.0.7
 author: Bitovi
 email: philH@bitovi.com
 dependencies:
